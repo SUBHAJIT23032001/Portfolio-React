@@ -1,0 +1,118 @@
+.third-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#education{
+    margin-bottom: 100px;
+    position: relative;
+    left: 600px;
+    top: 50px;
+    font-size: 50px;
+    width: 700px;
+    color: white;
+}
+.box{
+    position: relative;
+    width: 800px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-right: 50px;
+    overflow: hidden;
+    border-radius: 10%;
+    display: flex;
+}
+.ul-list{
+    z-index: 2;
+    font-size: 20px;
+    line-height:2.5rem;
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    color: white;
+}
+.ullist{
+    z-index: 2;
+    font-size: 20px;
+    line-height:2.5rem;
+    text-align: left;
+    margin-top: 100px;
+    margin-right: 20px;
+    position: absolute;
+    color: white;
+}
+.click-here{
+    z-index: 2;
+    margin-top: 600px;
+    margin-left: 30px;
+    position: absolute;
+
+}
+#click-here{
+    position: relative;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 0 20px;
+    color: #f2f5f5;
+    font-size: 15px;
+    border-style: 2px solid;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    border-radius: 30px;
+    border: 2px ridge white;
+}
+
+#click-here:hover{
+    background: #01ff3c;
+    color: #000000;
+    box-shadow: 0 0 5px #01ff3c,
+        0 0 25px #01ff3c,
+        0 0 50px #01ff3c,
+        0 0 200px #01ff3c;
+}
+.box-heading{
+    z-index: 2;
+    position: absolute;
+    margin-bottom: 500px;
+    margin-left: 40px;
+    color: #05ffcd;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 200%;
+    background: linear-gradient(#91ff00,#f5f900);
+    animation: rotate 4s linear infinite;
+
+}
+.box:hover::before{
+    width: 240%;
+}
+.box:hover::after{
+    background: #9800f7;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    background: #000000;
+    inset: 8px;
+    border-radius: 10%;
+}
+
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

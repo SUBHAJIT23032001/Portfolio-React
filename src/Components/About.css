@@ -1,0 +1,56 @@
+.item1-img img
+{
+    display: block;
+    height: 400px;
+    width: 500px;
+    margin-left: 680px;
+    
+}
+.item2-img img
+{
+    display: block;
+    height: 400px;
+    width: 500px;
+    margin-left: 680px;
+}
+.item1-caption
+{
+    position: block;
+}
+.item1
+{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    margin-left: 0;
+}
+.home
+{
+    margin: 0;
+    font-size: 30px;
+}
+#home
+{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: blueviolet;
+}
+.carousel-caption
+{
+    top: 450px;
+}
+.carousel-item
+{
+    height: 80vh;
+}
+.carousel-indicators
+{
+    top: 750px
+}
+.carousel-indicators [data-bs-target]
+{
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
